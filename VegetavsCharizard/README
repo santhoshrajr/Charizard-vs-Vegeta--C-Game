@@ -1,0 +1,39 @@
+Name:  Santhosh Raj Ravirala
+Clemson Email Address: sravira@clemson.edu  
+Course number:  6160
+
+Project no: 6
+
+Project description: Charizard vs Vegeta
+Project Parnter: Vrunal Mhatre
+Contribution: Worked on Sounds, God mode, AI and reworked on converting scaled sprited to dragon balls. Integrated project code.
+
+Objective:
+    Object Pooling: To ensure bullets are reused using freeList and bulletList
+    AI: Dragon Balls switch states based on Vegeta's postion and try to evade from vegeta. Two modes: Normal and Evade
+    Bullets: Press button 'E' to shoot Plasma from Vegeta.
+             Press button 'Right_Ctrl' to shoot Fireball from Charlizard.
+    Explosions: Collision with Fireball emitted from Charlizard explodes Vegeta.
+    Collisions: Charizard <--> Vegeta (Fireball and Plasma shootings)               
+    Reset:  Use Button 'R' to Reset the game
+    God Mode: Use v for Vegeta God mode and c for Charizard.
+    Dragon balls can be collected by Vegeta when it is in Godmode but it can't be killed by charizard.
+    Sound and Music: Reused audio clips from class repo provided by Dr. Malloy 
+    Projectile: Charizard thows Fireball in Projectile motion
+    
+
+
+    
+    Controls : Vegeta:
+                Navigation : asdw
+                Shooting : E  
+               Charizard
+                Navigation : arrow keys
+                Shooting : R_Ctrl
+
+Sources:
+Vegeta: brosif.devianart.com/Vegeta-Namek-Saga--sprite-Sheet-328792496
+FrameFactory and Frame class: OODesign framework. Prof. Malloy website. 
+Problems with this project:
+MultiSprite Explosions. 
+

@@ -1,0 +1,281 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Santhosh-Vrunal Vegeta VS Charizard</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+<safeDistance>250</safeDistance>
+<frameMax>500</frameMax>
+<username>sravira  and vmhatre</username>
+<numberOfSprites>7</numberOfSprites>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>1800</width>
+  <height>640</height>
+</world>
+
+<HUD>
+  <start>
+  <x>10</x>
+    <y>10</y>
+</start>
+<helt>280</helt>
+  <startX>10</startX>
+  <startY>10</startY>
+  <width>350</width>
+<height>280</height>
+  <HUD_WIDTH> 400 </HUD_WIDTH>
+ <HUD_HEIGHT>300</HUD_HEIGHT>
+</HUD>
+<Controls>
+<width>350</width>
+<height>280</height>
+<helt>280</helt>
+<start>
+<x>40</x>
+<y>40</y>
+</start>
+<autoDisappearTime>3</autoDisappearTime>
+</Controls>
+<mountains>
+  <file>images/background-sky.jpg</file>
+  <width>1800</width>
+  <height>683</height>
+  <factor>2</factor>
+  <transparency>true</transparency>
+</mountains>
+<cloud>
+  <file>images/clouds.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>4</factor>
+  <width>2000</width>
+  <height>354</height>
+  <transparency>false</transparency>
+</cloud>
+
+<trees>
+  <file>images/Backgroud.jpg</file>
+ <width>2000</width>
+  <height>683</height>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</trees>
+
+<player>
+  <file>images/bulbasaursprite.png</file>
+  <frames>5</frames>
+  <frameInterval>20</frameInterval>
+  <cushion>50</cushion>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+ <width>100</width>
+  <height>88</height>
+  <startLoc x="120" y="140"/>
+  <speedX>350</speedX>
+  <speedY>250</speedY>
+  <transparency>true</transparency>
+  <scale min="0.1" max="1"/>
+</player>
+
+<bat>
+  <file>images/Complete.png</file>
+  <startLoc x="500" y="250"/>
+  <frames>25</frames>
+  <frameInterval>180</frameInterval>
+  <speedX>100</speedX>
+  <speedY>0</speedY>
+  <red>0</red>
+  <blue>64</blue>
+  <green>128</green>
+  
+  <frameInterval>40</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>100</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <movSpeedX>200</movSpeedX>
+  <movSpeedY>150</movSpeedY>
+  <transparency>false</transparency>
+   <chunk>
+    <size>5</size>
+    <distance>100</distance>
+  </chunk>
+</bat>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>238</red>
+  <green>21</green>
+  <blue>21</blue>
+  <unused>0</unused>
+</font>
+
+<bulbasaur>
+  <file>images/bulbasaursprite.png</file>
+  <startLoc x="0" y="600"/>
+
+  <frames>5</frames>
+  <frameInterval>20</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>88</height>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</bulbasaur>
+
+
+
+
+<charizard1>
+  <file>images/charmelonsprite.png</file>
+  <startLoc x="120" y="540"/>
+
+  <frames>4</frames>
+  <frameInterval>20</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>84</height>
+  <speedX>-150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</charizard1>
+<charizard>
+  <file>images/charizard.png</file>
+  <startLoc x="700" y="250"/>
+  <frames>8</frames>
+  <frameInterval>35</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>84</height>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>5</size>
+    <distance>100</distance>
+  </chunk>
+  
+</charizard>
+<greenorb>
+  <count>5</count>
+  <file>images/fireball.png</file>
+  <srcX>100</srcX>
+  <srcY>100</srcY>
+  <width>64</width>
+  <height>64</height>
+  <startLoc x="320" y="240"/>
+  <speedX>175</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</greenorb>
+<flamethrower>
+  <range>800</range>
+  <speedx>100</speedx>
+  <speedy>160 </speedy>
+</flamethrower>
+
+<plasma>
+  <count>5</count>
+  <file>images/SinglePlasma.png</file>
+  <srcX>100</srcX>
+  <srcY>100</srcY>
+  <width>100</width>
+  <height>64</height>
+  <startLoc x="320" y="240"/>
+  <speedX>175</speedX>
+  <speedY>0</speedY>
+  <minDistance>200</minDistance>
+  <maxDistance>800</maxDistance>
+  <frames>1</frames>
+  <bulletInterval>600</bulletInterval>
+  <minBulletSpeed>150</minBulletSpeed>
+  <transparency>true</transparency>
+  <chunk>
+  <size>10</size>
+  <distance>60</distance>
+  </chunk>
+</plasma>
+
+<HealthVegeta>
+  <helt>100</helt>
+  <height>20</height>
+  <start>
+  <x>700</x>
+  <y>50</y>
+  </start>
+</HealthVegeta>
+<HealthChari>
+  <helt>100</helt>
+  <height>20</height>
+  <start>
+  <x>700</x>
+  <y>100</y>
+  </start>
+</HealthChari>
+<pokeball>
+  <file>images/Poke Ball.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>60</width>
+  <height>58</height>
+  <startLoc x="10" y="140"/>
+  <speedX>100</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</pokeball>
+
+<dragonball>
+  <file>images/dragonball1.png</file>
+  <cushion>60</cushion>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+   <width>60</width>
+  <height>60</height>
+  <startLoc x="320" y="240"/>
+  <speedX>-175</speedX>
+  <speedY>175</speedY>
+ <smartSpeedX>80</smartSpeedX>
+<smartSpeedY>20</smartSpeedY>
+ 
+   <scale min="0.1" max="0.4"/>
+  <transparency>true</transparency> 
+  <chunk>
+    <size>5</size>
+    <distance>100</distance>
+   <speedX>50</speedX>
+  <speedY>10</speedY>
+     </chunk>
+</dragonball>
+
+</GameData>
